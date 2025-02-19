@@ -109,6 +109,9 @@ app.post(
         user: mailG,
         pass: passG,
       },
+      tls: {
+        rejectUnauthorized: false // Ignore self-signed certificate errors
+    }
     });
 
     const mailOptions = {

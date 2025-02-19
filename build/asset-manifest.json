@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.aba9cca3.css",
-    "main.js": "/static/js/main.2113abe8.js",
+    "main.js": "/static/js/main.bdc79a44.js",
     "static/css/952.131e7abd.chunk.css": "/static/css/952.131e7abd.chunk.css",
     "static/js/952.9672656c.chunk.js": "/static/js/952.9672656c.chunk.js",
     "static/media/middleware3.mp4": "/static/media/middleware3.eb1a44dcb237002385ed.mp4",
@@ -132,6 +132,7 @@
     "static/media/gear.png": "/static/media/gear.b181ae135abb52acf425.png",
     "static/media/offshoredevelopment.webp": "/static/media/offshoredevelopment.40b3a64e33d3da782cf6.webp",
     "static/media/crisis.png": "/static/media/crisis.923fd4a571feb41f1f1f.png",
+    "static/media/BayaSystem.svg": "/static/media/BayaSystem.0e7d7b41f9c89f97d8f6f8c6d180ec57.svg",
     "static/media/device.png": "/static/media/device.74269c4e44ce478ddb9a.png",
     "static/media/phone.png": "/static/media/phone.70f32ad4514d9bdb6f91.png",
     "static/media/global_team.png": "/static/media/global_team.9c906c670f851905f850.png",
@@ -152,12 +153,12 @@
     "static/media/megaphone.svg": "/static/media/megaphone.df0b1484d18d146f93f87b989d9a839c.svg",
     "index.html": "/index.html",
     "main.aba9cca3.css.map": "/static/css/main.aba9cca3.css.map",
-    "main.2113abe8.js.map": "/static/js/main.2113abe8.js.map",
+    "main.bdc79a44.js.map": "/static/js/main.bdc79a44.js.map",
     "952.131e7abd.chunk.css.map": "/static/css/952.131e7abd.chunk.css.map",
     "952.9672656c.chunk.js.map": "/static/js/952.9672656c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aba9cca3.css",
-    "static/js/main.2113abe8.js"
+    "static/js/main.bdc79a44.js"
   ]
 }
