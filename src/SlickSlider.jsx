@@ -5,6 +5,7 @@ import { Player } from "@lottiefiles/react-lottie-player";
 
 
 import innetara from "./SVG/innatera.svg";
+import bayasystem from "./SVG/BayaSystem.svg";
 import LifeSignals from './images/lifeSignals.png';
 import InnoPhase from './images/InnoPhase.png';
 import SkyChip from './images/SkyChip.png';
@@ -17,7 +18,7 @@ const SlickSlider = () => {
   useEffect(() => {
     const copy = document.querySelector(".logos-slide").cloneNode(true);
     document.querySelector(".logos").appendChild(copy);
-
+ 
     
     // const images = document.querySelectorAll(".logos-slide img");
     // images.forEach(image => {
@@ -70,7 +71,7 @@ const SlickSlider = () => {
                 }}
               >Our Technology Partner</h2>
         <div class="logos-slide">
-           
+           <img src={bayasystem} alt="" />
           <img src={innetara} alt="" />
           <img src={LifeSignals} alt=""/>
           <img src={SkyChip} alt="" />
