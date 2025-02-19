@@ -1,0 +1,43 @@
+.nav-pills .nav-link {
+  background-color: rgb(245, 242, 242)!important;
+  color: black!important;
+}
+
+.nav-pills .nav-link.active {
+  background-color: rgb(230, 199, 199)!important;
+  color:#1268b3!important;
+  font-weight: bold;
+}
+
+
+/* Add a background color to the active tab */
+.active-tab {
+background-color: #007bff; /* Change to your desired color */
+color: white;
+}
+
+/* Add a background color to the active tab content */
+.active-tab-content {
+background-color: #007bff; /* Match this color with the active tab background color */
+color: white;
+}
+
+
+.overlayTabVideo {
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+opacity: 0;
+height:100%;
+width: 100%;
+background: linear-gradient(28deg, rgba(75, 134, 230, 0.8), rgba(46, 235, 72, 0));
+z-index: 2; 
+}
+
+
+
+.card:hover .overlayTabVideo {
+opacity: 1;
+}
+

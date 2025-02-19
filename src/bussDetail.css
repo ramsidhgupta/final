@@ -1,0 +1,84 @@
+
+.bg-dot.primary {
+    background-image: radial-gradient(#3f78e0 2px,transparent 2.5px)
+}
+
+.overlap-grid {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative
+}
+
+@media (min-width: 768px) {
+    .overlap-grid-2 .item:nth-child(1) {
+        width:100%;
+        margin-top: 0;
+        margin-left: 0%;
+        z-index: 3
+    }
+
+    .overlap-grid-2 .item:nth-child(2) {
+        width: 55%;
+        margin-top: -20%;
+        margin-left: 0;
+        z-index: 4
+    }
+
+    .overlap-grid-2 .item:nth-child(3) {
+        width: 60%;
+        margin-top: -35%;
+        margin-left: 40%;
+        z-index: 2
+    }
+}
+
+@media (max-width: 767px) {
+    .overlap-grid-2 .item {
+        width:100%
+    }
+
+    .overlap-grid-2 .item+.item {
+        margin-top: 1.5rem
+    }
+}
+.item {
+    position:relative;
+    backface-visibility: hidden;
+    opacity: 0;    
+    transform: scale(1.4);
+    animation: CrossFade 14s linear infinite;
+}
+
+.rounded img{
+    border-radius:0.4rem;
+}
+figure {
+    margin: 0;
+    padding: 0
+}
+
+figure img {
+    width: 100%;
+    max-width: 100%;
+    height: auto!important
+}
+
+
+@keyframes CrossFade {
+    10% {
+        opacity: 0;
+        transform: scale(.2);
+      }
+    25% {
+      opacity: 0.1;
+      transform: scale(.6);
+    }
+    40% {
+      opacity: 0.4;
+      transform: scale(.8);
+    }
+    75% {
+        opacity: 1;
+        transform: scale(1);
+      } 
+}

@@ -1,0 +1,282 @@
+.containerJob{
+    width:100%;
+    height:100vh;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #74EbD5;
+    background-image: linear-gradient(90deg, #74EbD5 0%, #9face6 100%);
+}
+
+/* .boxJob{
+    width: 150px;
+    height:455px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding:20px;
+    padding-top: 80px;
+    margin:20px;
+    text-align: center;
+    letter-spacing: 1px;
+    box-shadow:0 3px 5px rgba(0,0,0, 0.3);
+    overflow: hidden;
+    position: relative;
+    z-index:0;
+}
+
+.boxJob h3{
+    font-size: 35px;
+    padding:20px 0;
+    color:#444;
+}
+
+.boxJob p{
+    font-size:15px;
+    color:#777;
+}
+
+.boxJob button{
+    width:140px;
+    height:40px;
+    background-color:#333;
+    color:#fff;
+    border:none;
+    outline:none;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-top: 40px;
+}
+
+.boxJob button:hover{
+    letter-spacing: 2px;
+    opacity: .8;
+}
+
+.boxJob::before{
+    width:100%;
+    height:100%;
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:-1;
+}
+
+.boxJob::after{
+    width:100%;
+    height:100%;
+    background-color: #FBDA61;
+    background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:-2;
+    clip-path:circle(20% at 90% 10%);
+    transition: .2s;
+}
+
+.boxJob .count{
+    position: absolute;
+    top:15px;
+    right:30px;
+    font-size:50px;
+    font-weight: bolder;
+    color:#fff;
+}
+.boxJob:nth-child(2):after{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+.boxJob:nth-child(3):after{
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+}
+
+.boxJob:hover::after{
+    clip-path:circle(100%);
+}
+
+.boxJob:hover h3{
+    color:#fff;
+}
+
+.boxJob:hover p{
+    color:#fff;
+}
+
+.boxJob:hover button{
+    color:#333;
+    background-color:#fff;
+}
+.boxJob:hover ::before{
+    background-color:rgba(0,0,0,.1);
+} */
+
+
+/* Base styles */
+.boxJob {
+    width: 100%; /* Adjust width to fit container */
+    max-width: 300px; /* Set maximum width for larger screens */
+    height: auto; /* Adjust height based on content */
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    padding-top: 80px;
+    margin: 20px auto; /* Center horizontally */
+    text-align: center;
+    letter-spacing: 1px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}
+
+.boxJob h3 {
+    font-size: 26px;
+    padding: 10px 0;
+    color: #444;
+}
+
+.boxJob p {
+    font-size: 15px;
+    font-weight:bolder;
+    color: #777;
+}
+
+.boxJob button {
+    width: 140px;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-top: 40px;
+}
+
+.boxJob button:hover {
+    letter-spacing: 2px;
+    opacity: 0.8;
+}
+
+.boxJob::before {
+    width: 100%;
+    height: 100%;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.boxJob::after {
+    width: 100%;
+    height: 100%;
+    background-color: #FBDA61;
+    background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    clip-path: circle(20% at 90% 10%);
+    transition: 0.2s;
+}
+
+.boxJob .count {
+    position: absolute;
+    top: 5px;
+    right: 25px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.boxJob:nth-child(2):after {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+.boxJob:nth-child(3):after {
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+}
+
+.boxJob:nth-child(4):after {
+    background-color: #eb82202d;
+    background-image: linear-gradient(0deg, #eb82202d 0%, #250bb8 100%);
+}
+
+.boxJob:nth-child(5):after {
+    background-color: #43ee34;
+    background-image: linear-gradient(0deg, #43ee34 0%, #d82525 100%);
+}
+
+.boxJob:nth-child(6):after {
+    background-color: #b6ec1f;
+    background-image: linear-gradient(0deg, #b6ec1f 0%, #32352a 100%);
+}
+
+.boxJob:nth-child(7):after {
+    background-color: #7851e4;
+    background-image: linear-gradient(0deg, #7851e4 0%, #728ec2 100%);
+}
+
+.boxJob:nth-child(8):after {
+    background-color: #770808;
+    background-image: linear-gradient(0deg, #770808 0%, #e6aeae 100%);
+}
+
+.boxJob:nth-child(9):after {
+    background-color: #d8ee0f;
+    background-image: linear-gradient(0deg, #d8ee0f 0%, #13bbe6 100%);
+}
+.boxJob:nth-child(10):after {
+    background-color: #97d7e72f;
+    background-image: linear-gradient(0deg, #97d7e72f 0%, #a69bdb 100%);
+}
+
+
+
+
+
+
+
+
+
+
+.boxJob:hover::after {
+    clip-path: circle(100%);
+}
+
+.boxJob:hover h3 {
+    color: #fff;
+}
+
+.boxJob:hover p {
+    color: #fff;
+}
+
+.boxJob:hover button {
+    color: #333;
+    background-color: #fff;
+}
+
+.boxJob:hover ::before {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Media queries for responsiveness */
+@media (min-width: 768px) {
+    .boxJob {
+        width: calc(33.333% - 40px); /* Adjust width for larger screens */
+        max-width: none; /* Remove maximum width */
+        margin: 20px; /* Adjust margin for spacing between elements */
+    }
+}

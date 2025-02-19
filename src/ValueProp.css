@@ -1,0 +1,4 @@
+.Value-at {margin: 20px 0; background: url(https://techsocind.com/assets/img/free/banner2.jpg) no-repeat center center fixed; background-size: cover; position: relative; padding: 20px; display: flex; justify-content: center; align-items: center; min-height: 300px; border-radius: 10px;}
+.Value-at:before{ background-color: rgba(0,0,0,.7); content: ''; position: absolute; left:0; top:0; width:100%; border-radius: 10px; height:100%;}
+.Value-at > div {position: relative; z-index: 2;}
+.Value-at * {color:#fff;}

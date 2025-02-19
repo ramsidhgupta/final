@@ -1,0 +1,38 @@
+.card {
+  box-shadow: 0 0 0 .05rem rgba(8,60,130,.06),0 0 1.25rem rgba(30,34,40,.04);
+  border: 0
+}
+.card{
+  word-wrap: break-word!important;
+}
+.p-6{
+  padding:1.5rem!important;
+}
+.card-body{
+  flex:1 1 auto;
+  padding:2rem 2rem;
+}
+.mt-6{
+  margin-top:1.5rem!important;
+}
+
+/* Define a new class for reducing margin on mobile */
+.mobile-margin {
+  margin-top: 1rem; /* Adjust this value as needed */
+  margin-bottom: 1rem; /* Adjust this value as needed */
+}
+
+/* Apply the class only on mobile screens */
+@media only screen and (min-width: 767px) {
+  .mobile-margin {
+    margin-top: 1rem; /* Adjust this value as needed */
+    margin-bottom: 1rem; /* Adjust this value as needed */
+  }
+}
+
+@media(min-width:768px){
+  .py-md-10 {
+      padding-top: .5rem!important;
+      padding-bottom: .5rem!important
+  }
+}

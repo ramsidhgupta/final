@@ -1,0 +1,123 @@
+.project3-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+    
+}
+
+/* .hover-reveal_img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    /* Adjust the width as needed */
+    /* height: 100%; */
+    /* Adjust the height as needed */
+
+ 
+
+.menu {
+    position: relative;
+    left: 10%;
+    top: 10%;
+    width: 100vw; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-item {
+    position: relative;
+    flex: 1;
+    /* border-bottom: 1px solid rgba(17, 16, 16, 0.07); */
+}
+
+.menu span {
+    position: relative;
+    display: inline-block;
+    transform: translateY(-50%);
+    text-decoration: none;
+    mix-blend-mode: difference;
+    font-size: 36px;
+    font-weight: 700;
+    padding-left: 1rem;
+    -webkit-text-stroke-color: #000;
+    -webkit-text-stroke-width: 1px;
+}
+
+.menu a:before{
+    overflow:hidden;
+    transition:width;
+}
+.menu a:hover:before{
+    width:100%;
+}
+
+.one {
+    background-image: url(./assets/first_photo.jpg);
+}
+
+.two {
+    background-image: url(./assets/second_photo.jpg);
+}
+
+.three {
+    background-image: url(./assets/third_photo.jpg);
+}
+
+.four {
+    background-image: url(./assets/fourth_photo.jpg);
+}
+
+.five {
+    background-image: url(./assets/fifth_photo.jpg);
+}
+
+.hover-reveal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 480px;
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(0, -300px);
+    transition: 0.3s ease-out;
+}
+
+.hover-reveal_inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    will-change: transform;
+    overflow: hidden;
+}
+
+.hover-reveal_img {
+    top:0;
+    background-size: cover;
+    background-position: 50%, 50%;
+    transform-origin: 50% 100%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    will-change: transform;
+    transform: scale(0.5, 0.5);
+    transition: 1.3s transform;
+}
+
+.imgArea{
+    /* display: flex;
+    flex-direction: column; */
+    position:absolute;
+    /* right:10px; */
+    width:100%;
+    height:100%;
+    background: #f00;
+    z-index: -3;
+}

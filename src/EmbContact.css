@@ -1,0 +1,98 @@
+.techwix-cta-section-03 .cta-wrap {
+    padding: 60px 105px;
+    border-radius: 10px;
+    background: #bbc0ea;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: -85px;
+    position: relative;
+    z-index: 5;
+}
+
+.techwix-cta-section-03 .cta-wrap .cta-content .title {
+    /* padding-left: 30px; */
+    top:0;
+    position: relative;
+    color: blue!important;
+    font-size: 1.5rem!important;
+    /* left:9rem; */
+}
+
+.techwix-cta-section-03 .cta-wrap .cta-content .title::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    background: linear-gradient(-160deg, #43baff 0%, #7141b1 100%);
+    width: 5px;
+    height: 100%;
+    transform: translateY(-45%);
+}
+
+.techwix-cta-section-03 .cta-wrap .cta-info p {
+    font-size: 18px;
+    line-height: 20px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.techwix-cta-section-03 .cta-wrap .cta-info .number {
+    font-size: 26px;
+    line-height: 42px;
+    font-weight: 600;
+    color: #4bfff4;
+}
+
+@media only screen and (max-width: 449px){
+    .techwix-cta-section-03 .cta-wrap {
+        padding: 70px 40px;
+    }
+}
+
+@media only screen and (max-width: 1199px){
+    .techwix-cta-section-03 .cta-wrap .cta-content {
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .techwix-cta-section-03 .cta-wrap .cta-info {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 449px){
+    .techwix-cta-section-03 .cta-wrap .cta-info .number {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+
+.section-title .title.white {
+    color: #ffffff;
+}
+.section-title .title {
+    font-size: 35px;
+    line-height: 54px;
+    font-weight: 600;
+    color: #0b0757;
+}
+
+@media only screen and (max-width: 767px){
+    .section-title .title {
+        font-size: 30px;
+        line-height: 36px;
+    }
+}
+
+.pt-10{
+    padding-top: 10px;
+}
+
+.font-w-100{
+    font-weight: 100;
+}

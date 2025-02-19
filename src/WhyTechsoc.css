@@ -1,0 +1,61 @@
+.containerBlob {
+    margin-top:0%;
+    width: 80%;
+    height:33vh;
+    position: relative!important;
+    overflow: none;
+  }
+  
+  .cardBlob {
+    width:100%;
+    height:25vh;
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 20px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 18px );
+    -webkit-backdrop-filter: blur( 18px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 1rem;
+    padding: 0.5rem;
+    z-index: 9999;
+    color: whitesmoke;
+    position: relative!important;
+
+  }
+
+  .segment-at {margin: 20px 0; background: url(https://techsocind.com/assets/img/free/banner2.jpg) no-repeat center center fixed; background-size: cover; position: relative; padding: 20px; display: flex; justify-content: center; align-items: center; min-height: 300px; border-radius: 10px;}
+  .segment-at:before{ background-color: rgba(0,0,0,.7); content: ''; position: absolute; left:0; top:0; width:100%; border-radius: 10px; height:100%;}
+  .segment-at > div {position: relative; z-index: 2;}
+  .segment-at * {color:#fff;}
+  
+
+ 
+  .title {
+    font-size: 1rem; 
+     margin-bottom: 0.5rem;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .blob {
+    position: absolute;
+    width:87%;
+    height:50vh;
+   
+  }
+  
+  .custom-text {
+    font-size: 1.5vw;
+    color: black;
+  }
+
+  .dark-line {
+    top:0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 6px; /* Adjust height as needed */
+    background-color: #000; /* Dark color */
+  }

@@ -1,0 +1,90 @@
+
+  
+@keyframes CrossFade {
+  to {
+      transform: scale(1, 1);
+    }
+    from{
+        transform: scale(1.5, 1.5);
+      } 
+}
+
+
+  @keyframes slideInUp4 {
+    from {
+      transform: translateY(50%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  
+  .slideInUp4 {
+    animation-name: slideInUp4;
+    animation-duration: 1200ms;
+    animation-timing-function: ease-out;
+    animation-delay: 3ms;
+    animation-direction: normal;
+    animation-fill-mode: both;
+  }
+  .image-car-small {
+    width: 100vw; 
+    height: 36vh; 
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .carousel-content {
+    position: relative;
+    width: 100%;
+  }
+  
+  .heading1 {
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    transition: all 1.5s;
+    transform: translateX(-3em);
+    z-index: 9999;
+  }
+  
+
+  .content-wrapper{
+    flex-grow:1!important;
+    flex-shrink:0!important;
+  }
+  header{
+    position: relative;
+  }
+
+  @media (max-width: 767px) {
+    .swiper-hero {
+        height:500px!important
+    }
+
+    .swiper-hero .swiper-slide {
+        height: 500px!important
+    }
+
+    .swiper-hero .swiper-navigation {
+        display: none
+    }
+}
+.swiper-hero {
+  height: 550px!important
+}
+
+.swiper-hero .swiper-slide {
+  height: 550px!important;
+  background-size: cover;
+  background-position: center center
+}
+
+.swiper-slide.bg-overlay .caption-wrapper>*,.swiper-slide.bg-overlay [class*=container]>* {
+  position: relative;
+  z-index: 3
+}
+.fs-56{
+  font-size:calc(1.405rem + 1.86vw)!important;
+}

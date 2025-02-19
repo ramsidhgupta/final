@@ -1,0 +1,99 @@
+.front-faceJob, .back-face, .contents{
+  position:absolute;
+}
+.centerJob{
+  /* top:50%;
+  left:50%; 
+  transform:translate(-50%, -50%); */
+  height:35vh;
+  width:100%;
+  transform-style:preserve-3d;
+  perspective: 1000px;
+  overflow: none;
+}
+
+
+
+.front-faceJob, .back-face{
+  height: 100%;
+  width:100%;
+  text-align:center;
+  /* background:linear-gradient(rgba(0,0,0,.3),rgba(0, 0, 0, .3)), url(C:\ramsidh\career\career\src\images\quotes.webp); */
+  background:linear-gradient(rgba(223, 9, 87, 0.3),rgba(6, 190, 89, 0.3));
+  background-size:cover;
+  background-position: center;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition: transform .7s cubic-bezier(.4,.2,.2,1);
+}
+
+
+.contents{
+  left:0;
+  top:5rem;
+  width:100%;
+  perspective:100px;
+  transform: translateY(-50%) translateZ(60px) scale(.94);
+  text-align:center;
+}
+.front p{
+  color:white;
+  font-size:0.5rem;
+  margin-bottom:6px;
+}
+.front span{
+  color:white;
+  font-size:0.5rem;
+}
+.front p:after{
+  content:'';
+  display:block;
+  left: 0;
+  right: 0;
+  height:2px;
+  width:100%;
+  color:#1268b3;
+  margin:0 auto;
+  margin-top:6px;
+}
+.back-face{
+  transform:rotateY(180deg);
+  background: linear-gradient(45deg, #043348 0%, #032535 100%);
+}
+.backJob{
+  color:white;
+  top:10rem;
+}
+
+.backJob span{
+  font-size:0.85rem;
+}
+.centerJob:hover > .back-face{
+  transform:rotateY(0deg);
+}
+.centerJob:hover>.front-faceJob {
+  transform: rotateY(-180deg);
+}
+
+
+
+
+  
+  .image-car-smallJob {
+    width: 100vw; 
+    height: 100vh; 
+    /* object-fit: cover; */
+    /* object-position: center; */
+  }
+  
+  
+  .heading1 {
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    transition: all 1.5s;
+    transform: translateX(-3em);
+    z-index: 9999;
+  }
+  
+
+  

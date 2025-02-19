@@ -1,0 +1,40 @@
+:root{
+    --div-height:85vh;
+    --bg-size:100% 100%;
+}
+.center-div{
+    width:85vw;
+    min-height: 80vh;
+    margin:5vh auto;
+}
+
+
+
+.center-div .top-div{
+    height:calc(var(--div-height) - 40vh);
+    background-size: var(--bg-size);
+}
+
+.center-div .bottom-first-div{
+    height:calc(var(--div-height) - 50vh);
+    background-size: var(--bg-size);
+
+}
+.center-div .bottom-sec-div{
+    height:calc(var(--div-height) - 30vh);
+    background-size: var(--bg-size);
+
+}
+
+.center-div .last-div{
+    height:calc(var(--div-height) - 30vh);
+    width:100%;
+    background-size: var(--bg-size);
+}
+.textDecor{
+    text-transform: capitalize;
+    font-weight: 700;
+    letter-spacing: 0.1245em;
+    line-height: 0.23453em;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+}

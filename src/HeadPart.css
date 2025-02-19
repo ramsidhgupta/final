@@ -1,0 +1,9 @@
+.inner-banner{
+    max-height:300px;
+    object-fit:cover;
+}
+figure img{
+    width:100%;
+    max-width:100%;
+    height:auto!important;
+}

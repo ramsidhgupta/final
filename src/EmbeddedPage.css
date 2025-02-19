@@ -1,0 +1,247 @@
+.image-car-bg {
+    width: 100vw; 
+    height: auto; 
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .overlayMain-bg {
+    position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(to right, rgba(223, 22, 22, 2), rgba(14, 93, 241, 0));
+  z-index: 1;
+  }
+  
+  .overlayMainVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height:50vh;
+    width: 100%; 
+    background: linear-gradient(to top, rgba(223, 22, 22, 2), rgba(14, 93, 241, 0));
+    z-index: 1; 
+  }
+
+  .overlayBanner-bg {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height:auto;
+    width: 100%; 
+    background: linear-gradient(to right, rgba(223, 22, 22, 2), rgba(14, 93, 241, 0));
+    z-index: 1; 
+  }
+  
+  
+  .card-video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    opacity: 0;
+    object-fit: cover;
+    transition: opacity 0.2s ease;
+    z-index: 1;
+  }
+  
+  .card:hover .card-video-overlay {
+    opacity: 1;
+    backdrop-filter: blur(10px);
+  }
+  
+  .card-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* filter: blur(1px); */
+  }
+  
+  .card-body {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .card:hover .card-title,
+  .card:hover .card-text {
+    color: white; 
+  }
+  
+  .headerCard:hover,
+  .paragraphCard:hover {
+    color: white;
+    font-weight: 700;
+    
+  }
+  
+  #particles canvas {
+    z-index: -1;
+    height: 50%;
+    width: 50%;
+    position: absolute;
+  }
+  
+  .overlaySmallVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height:100vh;
+    width: 100%;
+    background: linear-gradient(16deg, rgba(235, 11, 11, 0.8), rgba(46, 235, 72, 0));
+  
+    /* background: linear-gradient(to top, rgba(123, 22, 22, 2), rgba(14, 93, 241, 0)); */
+    z-index: 1; 
+  }
+  
+  .cardRadius {
+    border-radius: 0 !important;
+  }
+
+
+  .particles-containerr {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Set the height according to your requirement */
+    border: 1px solid #000; /* Optional: Add a border to visualize the container */
+    overflow: hidden;
+  }
+
+  #tsparticles {
+    height: 100vh;
+    width:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+
+  .particles-image {
+    position: absolute;
+    top: 50%; /* Adjust as needed */
+    left: 40%; /* Adjust as needed */
+    z-index: 1;
+    width: 20%;
+    height: 25vh;
+    transform: translate(-50%, -50%);
+    border-radius:10px; /* Ensure the image is above the particles */
+  }
+  
+
+  .particles-image2 {
+    position: absolute;
+    top: 20%; /* Adjust as needed */
+    left: 2%; /* Adjust as needed */
+    z-index: 1;
+    width: 25%;
+    height: 30vh;
+    transform: translate(-50%, -50%);
+    border-radius:5px; /* Ensure the image is above the particles */
+  }
+
+  .particles-image3 {
+    position: absolute;
+    top: 60%; /* Adjust as needed */
+    left: 70%; /* Adjust as needed */
+    z-index: 1;
+    width: 30%;
+    height: 35vh;
+    transform: translate(-50%, -50%);
+    border-radius:5px; /* Ensure the image is above the particles */
+  }
+
+  .particles-image4 {
+    position: absolute;
+    top: 20%; /* Adjust as needed */
+    left: 50%; /* Adjust as needed */
+    z-index: 1;
+    width: 30%;
+    height: 35vh;
+    transform: translate(-50%, -50%);
+    border-radius:5px; /* Ensure the image is above the particles */
+  }
+
+  .particles-image5 {
+    position: absolute;
+    top: 30%; /* Adjust as needed */
+    left: 5%; /* Adjust as needed */
+    z-index: 1;
+    width: 20%;
+    height: 25vh;
+    transform: translate(-50%, -50%);
+    border-radius:5px; /* Ensure the image is above the particles */
+  }
+
+  /* .particles-component {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  } */
+
+  /* .animated-card {
+    width: 300px; 
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    z-index: 1;
+  } */
+
+  .particles-card {
+    position: absolute;
+    top: 35%; /* Adjust as needed */
+    left: 35%; /* Adjust as needed */
+    z-index: 1;
+    width: 30%;
+    height: 35vh;
+    border:none!important;
+    transform: translate(-50%, -50%);
+    background-color: rgba(244, 238, 238, 0); /* Adjust opacity here */
+    border-radius:5px; /* Ensure the image is above the particles */
+  }
+  
+  /* .card {
+    width: 100%;
+    border:none!important;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent!important;
+  }
+  
+  .card-body {
+    text-align: center;
+    background-color: rgba(244, 238, 238, 0)!important;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color:crimson!important;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #666;
+  } */
+
+  .placeholderHeight{
+    height:45vh!important;
+  }

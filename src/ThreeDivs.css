@@ -1,0 +1,195 @@
+.features-section {
+    position: relative;
+    padding: 100px 0 70px;
+    z-index: 2;
+}
+
+.auto-container {
+    position: static;
+    max-width: var(--container-width);
+    padding: 0px 15px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+    .features-section.pull-up .outer-box {
+        margin-top: 0;
+        padding-top: 50px;
+    }
+}
+
+.feature-block {
+    position: relative;
+    margin-bottom: 30px;
+    z-index: 1;
+}
+
+.feature-block .inner-box {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    padding: 30px 40px 30px;
+    background-color: #f0f0f0; /* Fallback background color */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-box-shadow: 0 10px 60px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 60px rgba(0, 0, 0, 0.1);
+    -webkit-transition: all 300ms ease;
+    transition: all 500ms ease;
+    border-bottom: 4px solid transparent;
+    border-image: linear-gradient(100deg, #34aed9 0%, #354a82 85%);
+    border-image-slice: 1;
+    width: 100%;
+    background-image: none; /* Initially hide background image */
+}
+
+.feature-block.box1_bg .inner-box:hover {
+    background-image: url(./assets/microchip_4.jpg);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    transform: scale(1.05);
+}
+
+.feature-block.box2_bg .inner-box:hover {
+    background-image: url(./assets/microchip_1.png);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    transform: scale(1.05);
+}
+
+.feature-block.box3_bg .inner-box:hover {
+    background-image: url(./assets/microchip_3.jpg);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    transform: scale(1.05);
+}
+
+.feature-block.box4_bg .inner-box:hover {
+    background-image: url(./assets/ai_board_1.jpg);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    transform: scale(1.05);
+}
+
+.feature-block.box5_bg .inner-box:hover {
+    background-image: url(./assets/ai_board_2.jpg);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    transform: scale(1.05);
+}
+
+.feature-block.box6_bg .inner-box:hover {
+    background-image: url(./assets/ai_board_3.jpg);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+.feature-block .inner-box:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    content: "";
+    transition: height 500ms ease;
+    z-index: 2;
+}
+
+.feature-block .inner-box:hover:before {
+    height: 0%;
+}
+
+.feature-block .inner-box:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Overlay color */
+    content: "";
+    opacity: 0;
+    transition: opacity 300ms ease;
+    z-index: 3;
+}
+
+.feature-block .inner-box:hover:after {
+    opacity: 1;
+   }
+
+.feature-block .inner-box:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+}
+
+
+@media only screen and (max-width: 599px) {
+    .feature-block .inner-box {
+        text-align: center;
+    }
+}
+
+.feature-block .title-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    z-index: 4;
+    transition: color 300ms ease; /*added */
+}
+
+.feature-block .title {
+    margin-bottom: 0;
+    font-size: 22px;
+    color: #003d7b;
+    font-weight: 500;
+    transition: color 300ms ease; /*added */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5), -2px -2px 3px rgba(255, 255, 255, 0.7);
+}
+
+.feature-block .text {
+    position: relative;
+    z-index: 4;
+    transition: color 300ms ease;
+}
+
+@media only screen and (max-width: 599px) {
+    .feature-block .text {
+        font-size: 14px;
+        line-height: 24px;
+        
+    }
+}
+
+
+.feature-block .inner-box:hover .title {
+    color: #ffffff;
+    letter-spacing: .2em;
+    font-weight: 600;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5), -2px -2px 3px rgba(255, 255, 255, 0.7);
+}
+
+.feature-block .inner-box:hover .text {
+    color: #ffffff; /* Change this to your desired color */
+    letter-spacing: .1em;
+    font-weight: 700;
+}

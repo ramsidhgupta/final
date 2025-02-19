@@ -1,0 +1,95 @@
+/* .looking-for,.section1 {
+    float: left;
+    width: 100%;
+    background: #f5f5f5;
+    text-align: center
+}
+
+
+.containerChip {
+    max-width: 1100px;
+    margin: 0 auto
+}
+
+.section1 h1 {
+    font-size: 25px;
+}
+
+
+#parallax-bg.looking-for {
+    height: auto!important;
+    background-attachment: inherit;
+    margin-left: 0;
+    margin-right: 0
+}
+
+#parallax-bg {
+    height: 300px;
+    padding: 4% 0;
+    float: left;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)) 0 0/100% 100% fixed,url('./images/truechip.webp') 0 0/100% 100% no-repeat fixed;
+    width: 100%
+}
+.looking-main {
+    padding: 0;
+    color: #fff
+}
+
+
+@media only screen and (max-width: 600px) {
+    .looking-containt,.model_left_content,.model_right_content {
+        width:100%
+    }
+    .looking-containt-box {
+        width: 50%
+    }
+}
+
+.looking-containt {
+    width: 58%;
+    background: rgb(51 104 149 / 89%);
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 44px 18px
+}
+
+.thumb img {
+    height: 100px
+}
+
+.looking-containt-box .look-service-title {
+    margin-top: 7px
+}
+
+.looking-containt .looking-containt-box:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+    color: #7eed50
+}
+
+.looking-containt-box .look-service-title a,.section6 .section6-left .testimonials-slider .sub-heading a {
+    color: #fff;
+    font-size: 16px
+}
+ */
+
+
+
+ 
+ /* .card {
+    position: sticky;
+    top: 5em;
+    transform-origin: center top;
+    margin: 0.5em;
+    height: 300px;
+    @include translateY;
+  }
+   */
+  
+  
+  

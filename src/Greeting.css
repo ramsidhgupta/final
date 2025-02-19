@@ -1,0 +1,95 @@
+
+.content {
+    position: relative;
+    top: 0;
+    left: -13%;
+    /* transform: translate(-50%, -50%); */
+    height: 10vh;
+    width:100%;
+    overflow: hidden;
+    font-family: 'Lato', sans-serif;
+    font-size: 2vw;
+    line-height: 40px;
+    color: #008F58;
+    }
+  
+  .content__container {
+    position: relative;
+    font-weight: 600;
+    overflow: hidden;
+    height: 40px;
+    /* padding: 0 40px; */
+    /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.1) 100%);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.1) 0%, rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.1) 100%); */
+    background:transparent;
+    width:100%;
+  }
+  
+  .content__container:before {
+    /* content: '[';
+    position: absolute;
+    top: 0;
+    left: 8rem;
+    color: #16a085;
+    font-size: 42px;
+    line-height: 40px;
+    animation: opacity 2s infinite; */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.1) 0%, rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.1) 100%);
+    top:0;
+  }
+  
+  .content__container:after {
+    /* content: ']';
+    position: absolute;
+    top: 0;
+    right: 5rem;
+    color: #16a085;
+    font-size: 42px;
+    line-height: 40px;
+    animation: opacity 2s infinite; */
+  
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.1) 100%);
+    bottom:0;
+
+
+  }
+  
+  .content__container__text {
+    display: inline;
+    float: left;
+    margin: 0;
+  }
+  
+  .content__container__list {
+    margin-top: 0;
+    padding-left: 110px;
+    text-align: left;
+    list-style: none;
+    animation: change 10s infinite; /* Adjusted to match the number of items */
+  }
+  
+  .content__container__list__item {
+    line-height: 40px;
+    margin: 0;
+  }
+  
+  @keyframes opacity {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+  
+  @keyframes change {
+    0%, 8.33%, 100% { transform: translate3d(0, 0, 0); }
+    8.33%, 16.66% { transform: translate3d(0, -40px, 0); }
+    16.66%, 25% { transform: translate3d(0, -80px, 0); }
+    25%, 33.33% { transform: translate3d(0, -120px, 0); }
+    33.33%, 41.66% { transform: translate3d(0, -160px, 0); }
+    41.66%, 50% { transform: translate3d(0, -200px, 0); }
+    50%, 58.33% { transform: translate3d(0, -240px, 0); }
+    58.33%, 66.66% { transform: translate3d(0, -280px, 0); }
+    66.66%, 75% { transform: translate3d(0, -320px, 0); }
+    75%, 83.33% { transform: translate3d(0, -360px, 0); }
+    83.33%, 91.66% { transform: translate3d(0, -400px, 0); }
+    91.66%, 100% { transform: translate3d(0, -440px, 0); }
+  }
+  

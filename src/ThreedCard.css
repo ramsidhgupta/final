@@ -1,0 +1,152 @@
+.center1,
+.front-face,
+.back-face,
+.contents1 {
+  position: absolute;
+}
+
+.center1 {
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 70vh;
+  width: 70%;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  backface-visibility: hidden;
+}
+
+.front-face,
+.back-face {
+  height: 100%;
+  background: linear-gradient(rgba(223, 9, 87, 0.3), rgba(14, 15, 14, 0.3));
+  width: 100%;
+  text-align: center;
+  background-position: center;
+  border-radius: 20px;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+
+.contents1 {
+  left: 0;
+  top: 50%;
+  width: 100%;
+  /* height: 100vh; */
+  perspective: 100px;
+  backface-visibility: hidden;
+  transform: translateY(-50%) translateZ(60px) scale(0.94);
+  text-align: center;
+}
+
+.front p {
+  color: white;
+  font-size: 1.5rem; /* Adjusted font size */
+  margin-top: 8rem;
+}
+
+.front span {
+  color: white;
+  font-size: 1rem; /* Adjusted font size */
+}
+
+.front p:after {
+  content: '';
+  display: block;
+  left: 0;
+  right: 0;
+  height: 2px;
+  width: 100px;
+  background: white;
+  margin: 0 auto;
+  margin-top: 6px;
+}
+
+.back-face {
+  transform: rotateY(180deg);
+  background: linear-gradient(45deg, #0e1416 0%, #032535 100%);
+}
+
+.backFace {
+  color: white;
+}
+
+.backFace p {
+  color: white;
+  font-size: 1.5rem; /* Adjusted font size */
+  margin-top: 8rem;
+}
+
+.center1:hover > .back-face {
+  transform: rotateY(0deg);
+}
+
+.center1:hover > .front-face {
+  transform: rotateY(-180deg);
+}
+
+/* Media Queries for Responsiveness */
+@media (min-width: 1200px) {
+  .center1 {
+    width: 65%;
+    height: 65vh;
+    top: 65%;
+  }
+
+  .front p, .backFace p {
+    font-size: 1.4rem;
+  }
+
+  .front span {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .center1 {
+    width: 100%;
+    height: 65vh;
+    top: 65%;
+  }
+
+  .front p, .backFace p {
+    font-size: 1.3rem;
+  }
+
+  .front span {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .center1 {
+    width: 100%;
+    height: 55vh;
+    top: 70%;
+  }
+
+  .front p, .backFace p {
+    font-size: 1.2rem;
+  }
+
+  .front span {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .center1 {
+    width: 100%;
+    height: 65vh;
+    top: 65%;
+  }
+
+  .front p, .backFace p {
+    font-size: 1rem;
+  }
+
+  .front span {
+    font-size: 0.6rem;
+  }
+}

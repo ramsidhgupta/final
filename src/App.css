@@ -1,0 +1,200 @@
+.AMS-at {margin: 20px 0; background: url("./assets/banner2.jpg") no-repeat center center fixed; background-size: cover; position: relative; padding: 20px; display: flex; justify-content: center; align-items: center; min-height: 300px; border-radius: 10px;}
+.AMS-at:before{ background-color: rgba(0,0,0,.7); content: ''; position: absolute; left:0; top:0; width:100%; border-radius: 10px; height:0; transition: height 1.5s ease;}
+.AMS-at > div {position: relative; z-index: 2;}
+.AMS-at * {color:#fff!important;}
+.AMS-at:hover:before {
+    height: 100%; 
+  }
+
+  .AMS-at {
+    /* Your existing styles */
+    height: 50vh; /* Adjust the height as needed */
+    width: 100%; /* Adjust the width as needed */
+    line-height: 1
+  }
+  
+  .AMS-at:before {
+    /* Your existing styles */
+    height: 100%; /* Set height to 100% on hover */
+    width: 100%; /* Set width to 100% on hover */
+  }
+  
+  .AMS-at:hover:before {
+    height: 100%; /* Set height to 100% on hover */
+    width: 100%; /* Set width to 100% on hover */
+  }
+
+.DV-at {margin: 20px 0; background: url("./assets/microchip_3.jpg") no-repeat center center fixed; background-size: cover; position: relative; padding: 20px; display: flex; justify-content: center; align-items: center; min-height: 300px; border-radius: 10px; overflow: hidden;}
+.DV-at:before{ background-color: rgba(0,0,0,.7); content: ''; position: absolute; left:0; top:0; width:100%; border-radius: 10px; height:0; transition: height 1.5s ease;}
+.DV-at > div {position: relative; z-index: 2;}
+.DV-at * {color:#fff;}
+.DV-at:hover:before {
+    height: 100%; 
+  }
+
+  .DV-at {
+    /* Your existing styles */
+    height: 50vh; /* Adjust the height as needed */
+    width: 100%; /* Adjust the width as needed */
+    line-height: 1
+  }
+  
+  .DV-at:before {
+    /* Your existing styles */
+    height: 100%; /* Set height to 100% on hover */
+    width: 100%; /* Set width to 100% on hover */
+  }
+  
+  .DV-at:hover:before {
+    height: 100%; /* Set height to 100% on hover */
+    width: 100%; /* Set width to 100% on hover */
+  }
+
+.RTL-at {margin: 20px 0; background: url("./assets/microchip_1.png"); background-size: cover; position: relative; padding: 20px; display: flex; justify-content: center; align-items: center; min-height: 300px; border-radius: 10px;}
+.RTL-at:before{ background-color: rgba(0,0,0,.7); content: ''; position: absolute; left:0; top:0; width:100%; border-radius: 10px; height:0; transition: height 1.5s ease;}
+.RTL-at > div {position: relative; z-index: 2;}
+.RTL-at * {color:#fff;}
+.RTL-at:hover:before {
+  height: 100%;
+}
+
+.RTL-at {
+  /* Your existing styles */
+  height: 50vh; /* Adjust the height as needed */
+  width: 100%; /* Adjust the width as needed */
+  line-height: 1
+}
+
+.RTL-at:before {
+  /* Your existing styles */
+  height: 100%; /* Set height to 100% on hover */
+    width: 100%; /* Set width to 100% on hover */
+}
+
+.RTL-at:hover:before {
+  height: 100%; /* Set height to 100% on hover */
+  width: 100%; /* Set width to 100% on hover */
+}
+
+
+.JOB-at {margin: 20px 10%; background: url("./assets/banner2.jpg") no-repeat center center fixed; margin-left: 10%; margin-right: 10%; background-size: cover; position: relative; padding: 6px; display: flex; justify-content: center; align-items: center; border-radius: 10px; overflow:hidden;} 
+.JOB-at:before{ background-color: rgba(0,0,0,.7); content: ''; position: absolute; left:0; top:0; width:100%; border-radius: 10px; height:100%; transition: height 1.5s ease;}
+.JOB-at > div {position: relative; z-index: 2;}
+.JOB-at * {color:#fff;}
+.JOB-at:hover:before {
+    height: 100%; 
+  }
+
+  .JOB-at {
+    /* Your existing styles */
+    height: 100vh; /* Adjust the height as needed */
+    width: 100%; /* Adjust the width as needed */
+    /* line-height: 0.5 */
+  }
+  
+  .JOB-at:before {
+    /* Your existing styles */
+   height: 100%; /* Set height to 100% on hover */
+    width: 100%; /* Set width to 100% on hover */ 
+  }
+  
+  .JOB-at:hover:before {
+    height: 100%; /* Set height to 100% on hover */
+    width: 100%; /* Set width to 100% on hover */
+  }
+
+
+  .JP-at {margin: 20px 0; background: url("./images/hands2.jpg") no-repeat center center fixed; background-size: cover; position: relative; padding: 20px; display: flex; justify-content: center; align-items: center; min-height: 200px; border-radius: 10px; overflow: hidden;}
+  .JP-at:before{ background-color: rgba(0,0,0,.7); content: ''; position: absolute; left:0; top:0; width:100%; border-radius: 10px; height:30vh; transition: height 1.5s ease;}
+  .JP-at > div {position: relative; z-index: 2;}
+  .JP-at * {color:#fff;}
+  .JP-at:hover:before {
+      height: 100%; 
+    }
+  
+    .JP-at {
+      /* Your existing styles */
+      height: 30vh; /* Adjust the height as needed */
+      width: 100%; /* Adjust the width as needed */
+      line-height: 1
+    }
+    
+    .JP-at:before {
+      /* Your existing styles */
+      height: 100%; /* Set initial height to 0 */
+      width: 100%; /* Set initial width to 0 */
+    }
+    
+    .JP-at:hover:before {
+      height: 100%; /* Set height to 100% on hover */
+      width: 100%; /* Set width to 100% on hover */
+    }
+   
+
+    .coda-regular {
+      color:black;
+      font-size: 16px;
+      font-family: "Coda", system-ui;
+      /* font-weight: 400; */
+      font-style: normal;
+    }
+    
+    .coda-extrabold {
+      font-family: "Coda", system-ui;
+      font-weight: 500;
+      font-style: normal;
+    }
+    
+
+
+
+
+
+
+.ThreeDiv-at {
+  margin: 20px 0;
+  border-radius: 10px;
+}
+.ThreeDiv-at:before
+  {
+   background-color: rgba(0,0,0,.7);
+   content: '';
+   position: absolute;
+   left:0;
+   top:0;
+   width:100%;
+   border-radius: 10px;
+   height:0;
+   transition: height 1.5s ease;
+  }
+
+.ThreeDiv-at > div
+ {
+  position: relative;
+  z-index: 2;
+}
+.ThreeDiv-at * {
+  color:#fff;
+}
+.ThreeDiv-at:hover:before {
+  height: 100%;
+}
+
+.ThreeDiv-at {
+  /* Your existing styles */
+  height: 50vh; /* Adjust the height as needed */
+  width: 100%; /* Adjust the width as needed */
+  line-height: 1
+}
+
+.ThreeDiv-at:before {
+  /* Your existing styles */
+  height: 100%; /* Set height to 100% on hover */
+    width: 100%; /* Set width to 100% on hover */
+}
+
+.ThreeDiv-at:hover:before {
+  height: 100%; /* Set height to 100% on hover */
+  width: 100%; /* Set width to 100% on hover */
+}
+
