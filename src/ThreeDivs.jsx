@@ -1,5 +1,3 @@
-
-import React from "react";
 import "./ThreeDivs.css";
 import { useInView } from "react-intersection-observer";
 

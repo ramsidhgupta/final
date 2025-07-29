@@ -10,7 +10,7 @@ import HomeThird from "./HomeThird";
 import HomeFirst from "./HomeFirst";
 import WhyTech from "./WhyTech";
 import SlickSlider from "./SlickSlider";
-import TrueChip from "./TrueChip";
+
 
 export const Header = () => {
   return (
@@ -25,7 +25,7 @@ export const Header = () => {
         <HomeSixth />
         <WhyTech/>
         <HomeSeventh />
-        {/* <TrueChip/> */}
+      
       </Layout>
     </>
   );

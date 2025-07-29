@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.aba9cca3.css",
-    "main.js": "/static/js/main.bdc79a44.js",
+    "main.css": "/static/css/main.92bfd6b1.css",
+    "main.js": "/static/js/main.a467ff5f.js",
     "static/css/952.131e7abd.chunk.css": "/static/css/952.131e7abd.chunk.css",
     "static/js/952.9672656c.chunk.js": "/static/js/952.9672656c.chunk.js",
     "static/media/middleware3.mp4": "/static/media/middleware3.eb1a44dcb237002385ed.mp4",
@@ -144,7 +144,6 @@
     "static/media/economy.png": "/static/media/economy.22a01012f289b7554284.png",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/InnoPhase.png": "/static/media/InnoPhase.76a5c9607e469e38e66c.png",
     "static/media/BackSvg.svg": "/static/media/BackSvg.9cf9fa43bc0c0385ce3d.svg",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/female.avif": "/static/media/female.10a1a0ff70ca3260a3a4.avif",
@@ -152,13 +151,13 @@
     "static/media/telemarketer.svg": "/static/media/telemarketer.62da80de95e6fed30f22d7b95e57601c.svg",
     "static/media/megaphone.svg": "/static/media/megaphone.df0b1484d18d146f93f87b989d9a839c.svg",
     "index.html": "/index.html",
-    "main.aba9cca3.css.map": "/static/css/main.aba9cca3.css.map",
-    "main.bdc79a44.js.map": "/static/js/main.bdc79a44.js.map",
+    "main.92bfd6b1.css.map": "/static/css/main.92bfd6b1.css.map",
+    "main.a467ff5f.js.map": "/static/js/main.a467ff5f.js.map",
     "952.131e7abd.chunk.css.map": "/static/css/952.131e7abd.chunk.css.map",
     "952.9672656c.chunk.js.map": "/static/js/952.9672656c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aba9cca3.css",
-    "static/js/main.bdc79a44.js"
+    "static/css/main.92bfd6b1.css",
+    "static/js/main.a467ff5f.js"
   ]
 }

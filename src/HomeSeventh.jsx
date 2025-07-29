@@ -2,9 +2,21 @@ import React from "react";
 import "./HomeSeventh.css";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import contact from './assets/contact.jpg';
-import telemarketer from './assets/telemarketer.svg';
+import contact from "./assets/contact.jpg";
+import telemarketer from "./assets/telemarketer.svg";
 import { Icon } from "@iconify/react";
+import "./ParticlesComponent.css";
+import event1 from "./assets/TeamLunchMay24.jpeg";
+import event2 from "./assets/raja2.jpeg";
+import event3 from "./assets/grp1.jpeg";
+import event4 from "./assets/raja3.jpeg";
+import event5 from "./assets/event3.jpg";
+import event6 from "./assets/event6.jpeg";
+import event10 from "./assets/event10.jpeg";
+
+
+
+
 
 
 const HomeSeventh = () => {
@@ -13,8 +25,8 @@ const HomeSeventh = () => {
   const [ref3, inView3] = useInView();
   const [ref4, inView4] = useInView();
   const [ref5, inView5] = useInView();
-
-
+  
+  const inView = useInView();
   const variants1 = {
     hidden: { opacity: 0, x: -100 },
     visible: { opacity: 1, x: 50 },
@@ -35,11 +47,55 @@ const HomeSeventh = () => {
     hidden: { opacity: 0, y: -100 },
     visible: { opacity: 1, y: 50 },
   };
-
+ 
+ 
   return (
-    <section class="wrapper bg-light">
+    <section className="wrapper bg-light">
+      {/* <div className="container pt-19 pb-14 pt-md-10 pb-md-16">
+        <div className="row gx-md-8 gx-xl-12 gy-10 align-items-center">
+          <div className="banner_aniv">
+         
+            <div className="center_static_image">
+              <img src={balloon} alt="Centerpiece" />
+            </div>
+            <div className="slider_aniv" style={{ "--quantity": 10 }}>
+              <div className="item_aniv" style={{ "--position": 1 }}>
+                <img src={event1} alt="Event 1" />
+              </div>
+              <div className="item_aniv" style={{ "--position": 2 }}>
+                <img src={event2} alt="Event 2" />
+              </div>
+              <div className="item_aniv" style={{ "--position": 3 }}>
+                <img src={event3} alt="Event 3" />
+              </div>
+              <div className="item_aniv" style={{ "--position": 4 }}>
+                <img src={event4} alt="Event 4" />
+              </div>
+              <div className="item_aniv" style={{ "--position": 5 }}>
+                <img src={event5} alt="Event 5" />
+              </div>
+              <div className="item_aniv" style={{ "--position": 6 }}>
+                <img src={event6} alt="Event 6" />
+              </div>
+              <div className="item_aniv" style={{ "--position": 7 }}>
+                <img src={event10} alt="Event 7" />
+              </div>
+              <div className="item_aniv" style={{ "--position": 8 }}>
+                <img src={event10} alt="Event 8" />
+              </div>
+              <div className="item_aniv" style={{ "--position": 9 }}>
+                <img src={event1} alt="Event 9" />
+              </div>
+              <div className="item_aniv" style={{ "--position": 10 }}>
+                <img src={event4} alt="Event 10" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> */}
       <div class="container pt-19 pb-14 pt-md-10 pb-md-16">
         <div class="row gx-md-8 gx-xl-12 gy-10 align-items-center">
+          {/* <Anniversery/> */}
           <motion.div
             class="col-md-8 col-lg-6 offset-lg-0 col-xl-5 offset-xl-1 position-relative"
             ref={ref1}
@@ -58,11 +114,7 @@ const HomeSeventh = () => {
               transition={{ duration: 0.2 }}
             ></motion.div>
             <figure class="rounded">
-              <img
-                src={contact}
-                srcSet={contact}
-                alt=""
-              />
+              <img src={contact} srcSet={contact} alt="" />
             </figure>
           </motion.div>
 
@@ -70,13 +122,11 @@ const HomeSeventh = () => {
             <img
               src={telemarketer}
               class="svg-inject icon-svg icon-svg-md mb-4 mt-5"
-              width="50" 
-              height="50" 
+              width="50"
+              height="50"
               alt=""
             />
-            <h2>
-              Let’s Collaborate and Build the Future Tech{" "}
-            </h2>
+            <h2>Let’s Collaborate and Build the Future Tech </h2>
             <motion.div
               class="d-flex flex-row"
               ref={ref3}
@@ -99,8 +149,10 @@ const HomeSeventh = () => {
                   <br />
                   Workhub by Noval Office,
                   <br />
-                  DODDANAKUNDI INDUSTRIAL AREA, Graphite India Main Rd.<br />
-                  Whitefield, KEB Colony, Industrial Area,<br />
+                  DODDANAKUNDI INDUSTRIAL AREA, Graphite India Main Rd.
+                  <br />
+                  Whitefield, KEB Colony, Industrial Area,
+                  <br />
                   Mahadevapura, Bengaluru, Karnataka, 560048, INDIA.
                 </address>
               </div>
@@ -113,18 +165,7 @@ const HomeSeventh = () => {
               variants={variants2}
               transition={{ duration: 0.6 }}
               data-cue="slideInRight"
-            >
-              {/* <div>
-                <div class="icon text--black-50 fs-28 me-6 mt-n1">
-                  {" "}
-                  <Icon icon="flat-color-icons:cell-phone" />
-                </div>
-              </div> */}
-              {/* <div>
-                <h5 class="mb-1">Phone</h5>
-                <p>+91 80 675 77879</p>
-              </div> */}
-            </motion.div>
+            ></motion.div>
             <motion.div
               class="d-flex flex-row"
               ref={ref5}
@@ -136,7 +177,7 @@ const HomeSeventh = () => {
             >
               <div>
                 <div class="icon text--black-50 fs-28 me-6 mt-n1">
-                <Icon icon="emojione-v1:envelope-with-arrow" />
+                  <Icon icon="emojione-v1:envelope-with-arrow" />
                 </div>
               </div>
               <div>

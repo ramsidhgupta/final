@@ -22,7 +22,7 @@ const randomInRange = (min, max) => {
   return Math.random() * (max - min) + min;
 };
 
-function Fireworks(props) {
+function Anniversery(props) {
   const customInit = async (engine) => {
     await loadFireworksPreset(engine);
   };
@@ -184,6 +184,7 @@ function Fireworks(props) {
   }, []);
 
   const particleConfig = {
+     
     fullScreen: {
       enable: false,
     },
@@ -318,6 +319,8 @@ function Fireworks(props) {
         },
       },
     },
+    
+  
   };
 
   const divStyle = {
@@ -334,6 +337,7 @@ function Fireworks(props) {
   return (
     <section className="wrapper-border">
       <div className="container py-14 py-md-10">
+     
         {isMobileView ? (
           <div className="row gx-lg-8 gx-xl-12 gy-10  align-items-center">
           <div className="card-body">
@@ -513,9 +517,10 @@ function Fireworks(props) {
             <Particles options={particleConfig} init={customInit} />
           </div>
         )}
+     
       </div>
     </section>
   );
 }
 
-export default Fireworks;
+export default Anniversery;

@@ -12,7 +12,7 @@ import PhotoShow from "./PhotoShow";
 import CharaAnim from "./CharaAnim";
 import gsap from "gsap";
 import Textify from "textify.js";
-// import TimeLine from "./TimeLine";
+//import TimeLine from "./TimeLine";
 const AboutUs = () => {
   const [ref, inView] = useInView();
   const [ref1, inView1] = useInView();

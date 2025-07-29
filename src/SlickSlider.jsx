@@ -7,7 +7,8 @@ import { Player } from "@lottiefiles/react-lottie-player";
 import innetara from "./SVG/innatera.svg";
 import bayasystem from "./SVG/BayaSystem.svg";
 import LifeSignals from './images/lifeSignals.png';
-import InnoPhase from './images/InnoPhase.png';
+// import InnoPhase from './images/InnoPhase.png';
+import GreenWavesRadios from './images/GreenWaveRadios.png'
 import SkyChip from './images/SkyChip.png';
 import Aeva from './images/Aeva2.png';
 import circle5 from "./lottieFiles/ram/Animation - 1711812217268.json"; //For BackGround Image
@@ -75,8 +76,8 @@ const SlickSlider = () => {
           <img src={innetara} alt="" />
           <img src={LifeSignals} alt=""/>
           <img src={SkyChip} alt="" />
-          <img src={InnoPhase} alt="" style={{backgroundColor:'#1268b3'}}  />
-          <img src={Aeva} alt="" />
+          <img src={GreenWavesRadios} alt="" style={{ width: '200px', height: '85px' }} />
+          <img src={Aeva} alt="Image" style={{ width: '150px', height: '150px' }} />
          
         </div>
       </div>
