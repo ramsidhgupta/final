@@ -13,6 +13,8 @@ import Projects3 from "./Projects3";
 import Frequent from "./Frequent";
 import EmbContact from "./EmbContact";
 import WhyEmbedded from "./WhyEmbedded";
+import ArtificialInteligence from './ArtificialInteligence';
+import Works from "./Works";
 
 function EmbeddedPage() {
   
@@ -25,7 +27,13 @@ function EmbeddedPage() {
 
   return (
     <>
-      <div className="position-relative">
+     <section
+      className="wrapper bg-dark"
+      style={{
+        paddingTop: "3.5rem",
+      }}
+    >
+      {/* <div className="position-relative">
         <video
           className="image-car"
           src={bgvideo}
@@ -63,18 +71,21 @@ function EmbeddedPage() {
             </motion.p>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <Tabs />
-      <SkewedDiv />
+      <ArtificialInteligence />
+      {/* <SkewedDiv />
       <ManyDivs />
       <BannerEmbedded />
       <Projects3 />
-      <Frequent/>
+      <Frequent/> */}
+      <Works/>
       <EmbContact/>
-      <WhyEmbedded/>
+      {/* <WhyEmbedded/> */}
+    </section>
     </>
   );
 }
 
 export default EmbeddedPage;
+

@@ -161,7 +161,7 @@ const ContactUs = () => {
                     </div> 
                     <div className="d-flex flex-row justify-content-center">
                       <h5 className="mb-1">Phone</h5>
-                      <p className="mt-1 ms-2"> +91 8067577879</p>
+                      <p className="mt-1 ms-2"> +91 6364871154</p>
                     </div>
 
                     <div>
@@ -247,10 +247,13 @@ const ContactUs = () => {
                       <div className="text-center ">
                         <h4 className="mb-1 text-center">Malaysia Office</h4>
                         <address>
-                          <strong>Techsoc Technologies Private Limited</strong>
+                          <strong>Techsoc Technologies SDN. BHD..</strong>
                           <br />
-                          <h5 className="text-center">K L</h5>
-                        </address>
+                          No 2A-3, Lintang Batu Maung 2,<br />
+                            Batu Maung 11960<br />
+                            George Town,<br />
+                            Penang, Malaysia <br />
+                           </address>
                       </div>
                     </div>
 
@@ -261,7 +264,7 @@ const ContactUs = () => {
                     </div>
                     <div className="d-flex flex-row justify-content-center">
                       <h5 className="mb-1 text-center">Phone</h5>
-                      <p className="text-center mt-1 ms-2">+60 195466430</p>
+                      <p className="text-center mt-1 ms-2">+60 14-365 3649</p>
                     </div>
 
                     <div>

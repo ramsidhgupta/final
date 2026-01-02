@@ -1,0 +1,81 @@
+.video-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -2;
+}
+
+.video-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.6), transparent);
+}
+
+.carousel-inner {
+  z-index: 1;
+}
+
+.overlay-content {
+  z-index: 2;
+  color: white;
+}
+
+.video-wrapper {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  /* overflow: hidden; */
+}
+
+.video-half {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.video-left,
+.video-right {
+  position: absolute;
+  width: 150%;
+  height: 150%;
+  object-fit: cover;
+  top: -25%;
+  left: -25%;
+  transform: rotate(-45deg);
+}
+
+.video-half.left .video-left {
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+}
+
+.video-half.right .video-right {
+  clip-path: polygon(100% 0, 100% 100%, 0 100%);
+}
+
+.divider-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.divider-line::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 150%;
+  background: white;
+  transform: rotate(45deg);
+  top: -25%;
+  left: 50%;
+}

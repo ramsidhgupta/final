@@ -265,7 +265,7 @@ function NewNav() {
                             onClick={handleLinkClick}
                             // style={{color:'black', fontWeight:'700'}}
                           >
-                            Embedded Software Services
+                            Embedded Engineering
                           </Link>
                       {/* <a
                         className="nav-link submenu-link"

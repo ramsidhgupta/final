@@ -151,7 +151,7 @@ const EmbContact = () => {
                 <img src={contact} alt="No Pic" style={{background:'black', borderRadius:'10px'}} />
               </div>
               <p className="ramParagraph" style={{ color:'#1268b3',fontWeight:'bold', fontSize:'1.05em'}}>Call us for any inquiry</p>
-              <h5 class="number ramParagraph" style={{ color:'#008F58',fontWeight:'bold', fontSize:'1em'}}>+91 8067577879</h5>
+              <h5 class="number ramParagraph" style={{ color:'#008F58',fontWeight:'bold', fontSize:'1em'}}>+91 6364871154</h5>
               <p className="ramParagraph" style={{ color:'#1268b3',fontWeight:'bold', fontSize:'1.05em'}}>Send your query</p>
               <h5 class="number ramParagraph" style={{ color:'#008F58',fontWeight:'bold', fontSize:'1em'}}>contact@Techsocind.com</h5>
             </div>
